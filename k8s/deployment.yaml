@@ -50,6 +50,7 @@ spec:
       labels:
         app: fakeshop
     spec:
+      replicas: 4
       containers:
         - name: fakeshop
           image: andrelsinfo/fake-shop:v1
